@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.navbar-brand{
+    width: fit-content;
+}
+.jumbotron {
+    background-image: url(./bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    color: rgba(220, 98, 10, 0.884);
+    text-shadow: 3px 3px 6px rgba(249, 163, 50, 0.767);
+    text-align: left;
+    font-weight: bold;
+}
+.jumbotron p{
+    color: #653a03;
+    text-align: left;
+    font-size: 18px;
+}
+.text-center{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-title{
+    color: brown;
+    font-weight: bold;
+}
+footer {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
